@@ -1,0 +1,5 @@
+in: query
+name: limit
+required: false
+type: integer
+description: Will limit the result count returned

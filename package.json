@@ -1,0 +1,22 @@
+{
+  "name": "openapi-nodegen-swagger-yml-example",
+  "version": "1.0.0",
+  "description": "openapi-nodegen-swagger-yml-example",
+  "main": "index.js",
+  "scripts": {
+    "build:yml": "boats -i ./src/index.yml -o ./build/api.yml"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acrontum/openapi-nodegen-swagger-yml-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/acrontum/openapi-nodegen-swagger-yml-example/issues"
+  },
+  "homepage": "https://github.com/acrontum/openapi-nodegen-swagger-yml-example#readme",
+  "devDependencies": {
+    "boats": "^1.1.2"
+  }
+}

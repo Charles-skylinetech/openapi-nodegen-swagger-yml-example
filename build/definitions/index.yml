@@ -1,0 +1,21 @@
+GenericSearchMeta:
+  $ref: ./generic/searchMeta.yml
+
+Weather:
+  $ref: ./weather/model.yml
+
+Weathers: 
+  properties:
+    meta:
+      $ref: ./generic/searchMeta.yml
+    data:
+      type: array
+      items:
+        $ref: ./weather/model.yml
+  
+
+WeatherPost:
+  $ref: ./weather/post.yml
+
+WeatherPut:
+  $ref: ./weather/put.yml

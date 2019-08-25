@@ -1,0 +1,15 @@
+tags:
+  - weather
+summary: weather data
+description: Get the latest temperatures
+operationId: <$ uniqueOpId() $>
+parameters:
+  - $ref: ../../../parameters/queryOffset.yml
+  - $ref: ../../../parameters/queryLimit.yml
+responses:
+  '200':
+    description: Successful fetch
+    schema:
+      $ref: ../../../definitions/index.yml#/Weathers
+  '404':
+    description: Temp not found

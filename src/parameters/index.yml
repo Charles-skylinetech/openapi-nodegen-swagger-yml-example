@@ -1,0 +1,6 @@
+queryLimit:
+  $ref: ./queryLimit.yml
+queryOffset:
+  $ref: ./queryOffset.yml
+pathId:
+  $ref: ./pathId.yml
